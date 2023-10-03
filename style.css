@@ -32,7 +32,7 @@ nav {
   height: 40px;
 }
 
-ul {
+nav ul {
   list-style: none;
   display: flex;
   column-gap: 40px; /*Column-gap kan användas istället för att sätta margin på li*/
@@ -179,4 +179,44 @@ main {
   background-image: url(./assets/alexander-grey-VezbAkZlTGk-unsplash.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.call_to_action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20%;
+}
+
+.call_to_action h2 {
+  margin: 20px;
+}
+
+.big {
+  font-size: 30px;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer_logo {
+  width: 100px;
+  height: 100px;
+}
+
+.footer_list {
+  list-style: none;
+}
+
+.footer_list li {
+  margin: 5px;
+}
+
+.footer_list a:hover {
+  color: #98a7f6;
 }
