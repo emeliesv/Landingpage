@@ -92,3 +92,21 @@ li {
   font-size: 1.25rem;
   font-weight: 600;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about_img {
+  width: 40%;
+  height: auto;
+  margin: 10px;
+  border-radius: 20px;
+}
