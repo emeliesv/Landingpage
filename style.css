@@ -79,6 +79,7 @@ li {
 
 .sub_heading {
   font-weight: 500;
+  margin: 5px 0px;
 }
 
 .application_btn {
@@ -102,11 +103,80 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin: 10% 0%;
 }
 
 .about_img {
-  width: 40%;
+  max-width: 40%;
   height: auto;
-  margin: 10px;
+  margin: 10px 40px;
   border-radius: 20px;
+}
+
+.subber_heading {
+  font-weight: 400;
+  margin: 5px 0px;
+}
+
+.about_text {
+  margin-right: 60px;
+  max-width: 50%;
+}
+
+.recommendations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 0%;
+  background-color: #c2c9ee;
+}
+
+.recommendations .sub_heading {
+  margin-top: 40px;
+}
+
+.card_container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: 5% 0%;
+}
+
+.card {
+  width: 30%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card p {
+  max-width: 70%;
+}
+
+.card_img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.first {
+  background-image: url(./assets/paola-aguilar-O-FR79xcGh8-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.second {
+  background-image: url(./assets/jonathan-safa-ITH_dM_RQLk-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.third {
+  background-image: url(./assets/alexander-grey-VezbAkZlTGk-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
 }
