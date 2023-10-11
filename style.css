@@ -216,6 +216,7 @@ footer {
 
 .footer_list {
   list-style: none;
+  font-size: small;
 }
 
 .footer_list li {
