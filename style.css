@@ -252,9 +252,13 @@ footer {
     column-gap: 40px; /*Column-gap kan användas istället för att sätta margin på li*/
   }
 
-  .fa-solid {
+  .hmbrgmenu {
     display: none;
   }
+
+  /*.fa-solid {
+    display: none;
+  }*/
 
   .hero_text {
     font-weight: 600;
